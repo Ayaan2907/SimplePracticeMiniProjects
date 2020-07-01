@@ -4,24 +4,32 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <title>Tod list A-k</title>
+  <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+  <link href="https://fonts.googleapis.com/css?family=Hind&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/a81368914c.js"></script>
 </head>
 
 <body>
+  <h1>Simple Todo list</h1>
 
+  <div class="input_div">
+    <input type="text" class="input" placeholder="write your todos " > <!--taking userInput-->
+   <button class="addButton"> <i class="fas fa-plus"></i></button> <!--button to add-->
+  </div>
   <div class="container">
-    <div class="text-center">
-        hello,
-      <div class="card">
-        ok all done
-        <input type="text" class="">
-        
-      </div><button class="btn btn-blue btn-primary btn-lg btn-block" type="submit">ok</button>
-    </div>
+    <div class="item">
+      <button class="removeButton">Delete</button>
+      <input type="text" class="item_input" disabled >
+    <button class="editButton">Change</button>
 
+
+    </div>
   </div>
 
+  
 </body>
+<script src="script.js"></script>
 
 </html>
