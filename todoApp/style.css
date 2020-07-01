@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100%;
+    box-sizing: border-box;
+    background-image: url(pexels-photo-354939.jpeg);
+    font-family: 'Noto Sans JP', sans-serif;
+
+}
+
+h1{
+    color: #fff;
+	font-size: 3rem;
+	font-weight: 500;
+	text-align: center;
+	margin: 1rem 0 3rem; 
+
+}
+u{
+    color: rgb(17, 238, 17);
+}
+.inputDiv{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.inputDiv:hover{
+    transition: ease-in-out 0.2s;
+}
+.input{
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: none;
+    height: 50px;
+    border-radius: 25px;
+    width: 350px;
+    margin: 0.25rem;
+    transition: 1s;
+    font-size: 1.15rem;
+    
+}
+.addButton{
+	outline: none;
+    border: none;
+    height: 50px;
+    border-radius: 25px;
+    width: 50px;
+    background-color: rgb(17, 238, 17);
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+    margin: 0.25rem;
+}
+.addButton:hover{
+    transition: ease-in-out 0.2s;
+    background-color: chocolate;
+    transform-origin: 10px;
+}
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 2rem;
+}
+.item{
+	padding: 0.5rem;
+	border-bottom: 2px solid #fff;
+	margin-bottom: 1.5rem;
+}
+.itemInput{
+	background: none;
+	/* outline: none; */
+    border: 2px black dotted;
+    border-radius: 20px;
+	color: #fff;
+	font-size: 1.4rem;
+	width: 245px;
+}
+.changeButton{
+
+	outline: none;
+    border-radius: 20px;
+    background-color: rgba(255, 217, 0, 0.4);
+	color: lime;
+    font-size: 1.4rem;
+    font-weight: 100;
+	margin: 0 0.5rem;
+	cursor: pointer;
+}
+.deleteButton{
+
+	outline: none;
+	border-radius: 20px;
+    background-color: rgba(255, 217, 0, 0.4);
+	color: #E00;
+	font-size: 1.4rem;
+	font-weight: 100;
+	cursor: pointer;
+}
