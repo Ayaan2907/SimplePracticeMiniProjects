@@ -1,2 +1,2 @@
-# https-github.com-Ayaan2907-SimplePracticeMiniProjects
+SimplePracticeMiniProjects
 A platform to store my practiced files.
