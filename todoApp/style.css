@@ -10,7 +10,7 @@ title{
 body{
     height: 100%;
     box-sizing: border-box;
-    background-image: url(pexels-photo-354939.jpeg);
+    background-image: url(scuffedstatic_red_1920x1234.jpg);
     font-family: 'Noto Sans JP', sans-serif;
 
 }
@@ -34,6 +34,9 @@ u{
 .inputDiv:hover{
     transition: ease-in-out 0.2s;
 }
+.container:hover{
+
+}
 .input{
     padding: 0.5rem 1rem;
     outline: none;
@@ -50,8 +53,8 @@ u{
 	outline: none;
     border: none;
     height: 50px;
-    border-radius: 25px;
     width: 50px;
+    border-radius: 25px;
     background-color: rgb(17, 238, 17);
     color: white;
     cursor: pointer;
@@ -60,7 +63,7 @@ u{
 }
 .addButton:hover{
     transition: ease-in-out 0.2s;
-    background-color: chocolate;
+    background-color: rgb(202, 162, 133);
     transform-origin: 10px;
 }
 .container{
@@ -72,43 +75,48 @@ u{
 	margin-top: 2rem;
 }
 .item{
-	padding: 0.5rem;
+    padding: 0.5rem;
+    padding-top: 8px;
 	border-bottom: 2px solid #fff;
 	margin-bottom: 1.5rem;
 }
 .itemInput{
 	background: none;
-	/* outline: none; */
-    border: 2px black dotted;
-    border-radius: 20px;
+    outline: none;
+    border: none;
 	color: #fff;
 	font-size: 1.4rem;
 	width: 245px;
 }
 .changeButton{
 
-	outline: none;
-    border-radius: 20px;
-    background-color: rgba(255, 217, 0, 0.4);
-	color: lime;
+    outline: none;
+    border: none;
+    outline: none;    
+     background: none;
+   	color: lime;
     font-size: 1.4rem;
     font-weight: 100;
 	margin: 0 0.5rem;
 	cursor: pointer;
 }
 .changeButton:hover{
-    background-color: rgba(255, 217, 0, 0.8);
+    background: none;
+    transition: ease-in-out 0.3s;
+    font-weight: 700;
 }
 .deleteButton{
 
-	outline: none;
-	border-radius: 20px;
-    background-color: rgba(255, 217, 0, 0.4);
+	border: none;
+    background: none;
 	color: #E00;
 	font-size: 1.4rem;
 	font-weight: 100;
 	cursor: pointer;
 }
 .deleteButton:hover{
-    background-color: rgba(255, 217, 0, 0.8);
+    background: none;
+    transition: ease-in-out 0.3s;
+    font-weight: 700;
+}
 }
