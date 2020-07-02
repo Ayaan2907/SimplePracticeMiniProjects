@@ -4,24 +4,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <title>Tod list A-k</title>
+  <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+  <link href="https://fonts.googleapis.com/css?family=Hind&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/a81368914c.js"></script>
 </head>
 
 <body>
+  <h1> <u class="title"> Simple </u>Todo list</h1>
 
-  <div class="container">
-    <div class="text-center">
-        hello,
-      <div class="card">
-        ok all done
-        <input type="text" class="">
-        
-      </div><button class="btn btn-blue btn-primary btn-lg btn-block" type="submit">ok</button>
+  <div class="inputDiv" id="inputDiv">
+    <button class="addButton"> <i class="fas fa">Add</i></button> <!--button to add-->
+    <input type="text" class="input" placeholder="write your todos " id="input" > <!--taking userInput-->
+  </div>
+  <div class="container" id="container">
+    <div class="item" id="item">
+      <button class="deleteButton" id="deleteButton">Delete</button>
+      <button class="changeButton" id="changeButton" >Change</button>
+      <input type="text" class="itemInput"  id="itemInput" placeholder="write here" >
+
     </div>
-
   </div>
 
+  
 </body>
+<script src="script.js"></script>
 
 </html>
