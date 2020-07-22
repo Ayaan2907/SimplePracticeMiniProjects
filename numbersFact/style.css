@@ -1,0 +1,20 @@
+body {
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.self_card {
+      background-color: rgba(233, 198, 83, 0.537);
+      border: cornsilk 5px solid;
+      border-radius: 3ex;
+
+}
+
+span {
+      font-weight: 900;
+}
+
+.self_card_body {
+      background-color: cornsilk;
+      border-right: 3px black solid;
+      border-bottom: 3px black solid;
+}
